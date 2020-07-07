@@ -39,5 +39,17 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 ```
 <i><b>TIP: </b>The argument '--save' is to add to the project.</i>
 
-### Step 6: Coding
-<b>1.</b>  </br>
+### Step 6: Create a Server (Example)
+<b>1.</b> Into the <b>index.js</b> file: </br>
+```js
+   const http = require('http');
+   
+   const hostname = '127.0.0.1';
+   const port = 3000;            // in a programming environment is different
+   
+   const server = http.createServer( (req, res) => { 
+      res.statusCode = 200;
+      res.setHeader('Content-Type', 'text/plain');
+      res.end('Hello World!');
+   });
+```

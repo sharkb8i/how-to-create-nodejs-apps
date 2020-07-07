@@ -66,9 +66,9 @@ Little guide to create NodeJS apps <b>from scratch</b>.
    $ node index.js
 ```
 
-<b>3.</b> From now the code is running on <i>localhost:3000</i> </br>
+<b>3.</b> From now the code is running on <i>localhost:3000</i> </br></br>
 
-### Bonus: How to render an HTML page (Example)
+### BONUS: How to render an HTML page (Example)
 <b>1.</b> Open the [VS Code](https://code.visualstudio.com/download) </br>
 
 <b>2.</b> Create a html file(<b>index.html</b>) and edit </br></br>

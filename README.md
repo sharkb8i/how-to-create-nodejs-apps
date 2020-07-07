@@ -1,2 +1,19 @@
-# how-to-create-nodejs-apps
-How to create NodeJS apps (from scratch).
+# How to create NodeJS apps
+Little guide to create NodeJS apps <b>from scratch</b>.
+
+<b>1.</b> Go to the node webpage and download it <br/>
+[Download!](https://nodejs.org/en/download/)
+
+<b>2.</b> Install node <br/>
+
+<b>3.</b> Check if the it's installed through npm package version<br/>
+```sh
+   $ npm --v
+```
+
+<b>4.</b> Create a local repo from scratch <br/>
+[How to create git repos!](https://github.com/sharkb8i/how-to-create-repos/)
+
+<b>5.</b> Open the <b>cmd</b> <br/>
+
+<b>6.</b>  <br/>

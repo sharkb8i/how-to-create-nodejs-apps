@@ -11,9 +11,9 @@ Little guide to create NodeJS apps <b>from scratch</b>.
    $ npm --v
 ```
 
-### Step 2: [Create a local repo from scratch](https://github.com/sharkb8i/how-to-create-repos/)
+### Step 2: [Create a Local Repo from Scratch](https://github.com/sharkb8i/how-to-create-repos/)
 
-### Step 3: Starting the project
+### Step 3: Starting the Project
 <b>1.</b> Open the <b>cmd</b> <br/>
 
 <b>2.</b> Go into the local repo directory <br/>

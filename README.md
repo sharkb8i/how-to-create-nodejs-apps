@@ -68,10 +68,10 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 
 <b>3.</b> From now the code is running on <i>localhost:3000</i> </br>
 
-### Step 8: How to render an HTML page (Example)
+### Bonus: How to render an HTML page (Example)
 <b>1.</b> Open the [VS Code](https://code.visualstudio.com/download) </br>
 
-<b>2.</b> Create a html file(<b>index.html</b>) and edit </br>
+<b>2.</b> Create a html file(<b>index.html</b>) and edit </br></br>
 <b>index.html</b> </br>
 ```html
    <h2>Hello World!!!<h2>
@@ -83,10 +83,22 @@ Little guide to create NodeJS apps <b>from scratch</b>.
    const path = require('path');
    const router = express.Router();       // define routes
    
+   // localhost:3000
    router.get('/', function(req, res) {   // what will be rendered on this '/' route
       res.sendFile(path.join(__dirname+'/index.html'));  // what will be executed
    });
    
+   // localhost:3000/about
+   router.get('/about', function(req, res) {   // what will be rendered on this '/' route
+      res.sendFile(path.join(__dirname+'/about.html'));  // what will be executed
+   });
+   
    app.use('/', router);
    app.listen(process.env.port || 3000);  // run on standard port or on 3000
+   
+   console.log("Server is running!");
+```
+<b>cmd</b> </br>
+```sh
+   $ node index.js
 ```

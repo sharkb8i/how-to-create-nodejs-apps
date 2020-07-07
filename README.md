@@ -12,23 +12,23 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 ```
 
 ### Step 2: Create a local repo
-<b>4.</b> [Create a local repo from scratch](https://github.com/sharkb8i/how-to-create-repos/) <br/>
+<b>1.</b> [Create a local repo from scratch](https://github.com/sharkb8i/how-to-create-repos/) <br/>
 
 ### Step 3: Starting the project
-<b>5.</b> Open the <b>cmd</b> <br/>
+<b>1.</b> Open the <b>cmd</b> <br/>
 
-<b>6.</b> Go into the local repo directory <br/>
+<b>2.</b> Go into the local repo directory <br/>
 ```sh
    $ cd project-repo-name
 ```
 
-<b>7.</b> Start the project<br/>
+<b>3.</b> Start the project<br/>
 ```sh
    $ npm init
 ```
 <i><b>TIP: </b>Let the standard creation by pressing ENTER and finally type 'yes'.</i>
 
 ### Step 4: Coding
-<b>8.</b> Open the VS Code <br/>
+<b>1.</b> Open the VS Code <br/>
 
-<b>9.</b> Create the entry point file (<b>index.js</b>)</br>
+<b>2.</b> Create the entry point file (<b>index.js</b>)</br>

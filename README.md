@@ -52,4 +52,16 @@ Little guide to create NodeJS apps <b>from scratch</b>.
       res.setHeader('Content-Type', 'text/plain');
       res.end('Hello World!');
    });
+   
+   server.listen(port, hostname, () => {    // to open the localhost page
+      console.log("Server is running!");
+   });
+```
+
+### Step 7: Execute the Server
+<b>1.</b> Open the <b>cmd</b> </br>
+
+<b>2.</b> Execute the server </br>
+```sh
+   $ node index.js
 ```

@@ -31,3 +31,9 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 <b>1.</b> Open the [VS Code](https://code.visualstudio.com/download) <br/>
 
 <b>2.</b> Create the entry point file (<b>index.js</b>)</br>
+
+<b>3.</b> Go to the <b>cmd</b> again and install the dependencies <br/>
+```sh
+   $ npm install --save
+```
+<i><b>TIP: </b>The argument '--save' is to add the dependency to project.</i>

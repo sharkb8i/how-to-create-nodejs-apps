@@ -65,3 +65,5 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 ```sh
    $ node index.js
 ```
+
+<b>3.</b> From now the code is running on <i>localhost:3000</i> </br>

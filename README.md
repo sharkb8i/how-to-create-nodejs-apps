@@ -18,4 +18,12 @@ Little guide to create NodeJS apps <b>from scratch</b>.
 
 <b>5.</b> Open the <b>cmd</b> <br/>
 
-<b>6.</b>  <br/>
+<b>6.</b> Go into the local repo directory <br/>
+
+<b>7.</b> Start the project<br/>
+```sh
+   $ npm init
+```
+<i><b>TIP: </b>Let the standard creation by pressing ENTER and finally type 'yes'.</i>
+
+<b>8.</b>  <br/>
